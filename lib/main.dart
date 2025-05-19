@@ -1,7 +1,8 @@
+import 'package:demo/add_image.dart';
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(mywidget());
 }
 
 class MyApp extends StatelessWidget {
