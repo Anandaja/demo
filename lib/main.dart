@@ -7,12 +7,13 @@ import 'package:demo/layout_widget/slider.dart';
 import 'package:demo/layout_widget/stack.dart';
 import 'package:demo/layout_widget/tab_bar.dart';
 import 'package:demo/nav/nav_drawer.dart';
+import 'package:demo/provider/counter/counter.dart';
 import 'package:flutter/material.dart';
 
 void main() {
   // runApp(ContainerExample());
   // runApp(mywidget());
-  runApp(MyApp());
+  // runApp(MyApp());
   // runApp(const StackExample());
   // runApp(const SnackBarApp());
   // runApp(const SliderApp());
@@ -22,6 +23,8 @@ void main() {
   // runApp(const CardExample());
   // runApp(gestureExample());
   // runApp(Nav());
+   runApp(const CounterApp());
+
 
 
 }
